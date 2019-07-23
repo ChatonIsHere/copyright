@@ -1,0 +1,15 @@
+{
+    "name": "@ehsawyer/copyright",
+    "version": "0.0.4",
+    "description": "A small copyright notice generating library",
+    "main": "copyright.js",
+    "scripts": {
+        "test": "jasmine",
+        "document": "npx readme-md-generator -y"
+    },
+    "author": "Ethan Sawyer",
+    "license": "GPL-3.0-only",
+    "devDependencies": {
+        "jasmine": "^3.4.0"
+    }
+}
