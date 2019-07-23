@@ -88,5 +88,4 @@ typings/
 .dynamodb/
 
 # Other
-spec/
 .npmignore
