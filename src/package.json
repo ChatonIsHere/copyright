@@ -3,13 +3,13 @@
     "version": "1.0.1",
     "description": "A small copyright notice generating library",
     "main": "copyright.js",
-    "scripts": {
-        "test": "jasmine",
-        "document": "npx readme-md-generator -y"
-    },
     "author": "Ethan Sawyer",
     "license": "GPL-3.0-only",
     "devDependencies": {
         "jasmine": "^3.4.0"
+    },
+	"scripts": {
+        "test": "jasmine ..",
+        "document": "npx readme-md-generator -y"
     }
 }
