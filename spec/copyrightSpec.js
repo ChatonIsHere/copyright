@@ -1,4 +1,4 @@
-let copyright = require("../src/copyright")
+const copyright = require("../src/copyright")
 
 describe("Copyright", function() {
     it("should be able to run without input", function() {
