@@ -1,3 +1,8 @@
+/**
+ * copyright module
+ * @module @chatonishere/copyright
+ */
+
 "use strict";
 
 const defaultOptions = {
