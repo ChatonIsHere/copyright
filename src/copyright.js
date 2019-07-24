@@ -1,3 +1,8 @@
+/**
+ * copyright module
+ * @module @ehsawyer/copyright
+ */
+
 "use strict";
 
 const defaultOptions = {
