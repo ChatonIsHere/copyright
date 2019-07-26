@@ -1,6 +1,6 @@
 {
     "name": "@ehsawyer/copyright",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "A small copyright notice generating library",
     "main": "copyright.js",
     "repository": "https://github.com/ehsawyer/copyright",
@@ -9,6 +9,6 @@
     "scripts": {
         "test": "jasmine ..",
         "document": "npx readme-md-generator -y",
-        "patch-release": "yarn version --patch && yarn publish && git push --follow-tags"
+        "patch-release": "yarn version --patch && yarn publish -y && git push --follow-tags"
     }
 }
