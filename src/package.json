@@ -1,13 +1,14 @@
 {
     "name": "@ehsawyer/copyright",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "A small copyright notice generating library",
     "main": "copyright.js",
-	"repository": "https://github.com/ehsawyer/copyright",
+    "repository": "https://github.com/ehsawyer/copyright",
     "author": "Ethan Sawyer",
     "license": "GPL-3.0-only",
-	"scripts": {
+    "scripts": {
         "test": "jasmine ..",
-        "document": "npx readme-md-generator -y"
+        "document": "npx readme-md-generator -y",
+        "patch-release": "yarn version --patch && yarn publish && git push --follow-tags"
     }
 }
