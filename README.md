@@ -1,13 +1,13 @@
-<p align="center"># Copyright</p>
-<p align="center">![Build Passing](https://img.shields.io/badge/build-passing-success?style=for-the-badge) ![](https://img.shields.io/npm/v/@ehsawyer/copyright?style=for-the-badge)</p>
+# Copyright (@ehsawyer/copyright)
+![Build Passing](https://img.shields.io/badge/build-passing-success?style=for-the-badge) ![](https://img.shields.io/npm/v/@ehsawyer/copyright?style=for-the-badge)
 
-<p align="center">[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-with-resentment.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](https://forthebadge.com)</p>
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-with-resentment.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](https://forthebadge.com)
 
 >A small copyright notice generating library
 
 ## Getting Started
 
-Extremely simple to use
+Extremely simple to use:
 
 ```
 const copyright = require("@ehsawyer/copyright")
@@ -58,7 +58,7 @@ Or
 yarn global add jasmine
 ```
 
-Then navigate to the package folder and run
+Then navigate to the package folder and run:
 
 ```
 jasmine
@@ -75,4 +75,3 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 ## License
 
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details
-
