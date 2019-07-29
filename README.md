@@ -1,51 +1,77 @@
-<h1 align="center">Welcome to @ehsawyer/copyright 👋</h1>
-<p>
-  <img alt="Version" src="https://img.shields.io/npm/v/@ehsawyer/copyright.svg">
-  <a href="https://github.com/ehsawyer/copyright/blob/master/LICENSE">
-    <img alt="License: GPL-3.0-only" src="https://img.shields.io/badge/License-GPL-3.0-only-yellow.svg" target="_blank" />
-  </a>
-</p>
+# Copyright (@ehsawyer/copyright)
+![Build Passing](https://img.shields.io/badge/build-passing-success?style=for-the-badge) ![](https://img.shields.io/npm/v/@ehsawyer/copyright?style=for-the-badge)
 
-> A small copyright notice generating library
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-with-resentment.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](https://forthebadge.com)
 
-### 🏠 [Homepage](https://www.npmjs.com/package/@ehsawyer/copyright)
+>A small copyright notice generating library
 
-## Install
+## Getting Started
 
-```sh
+Extremely simple to use:
+
+```
+const copyright = require("@ehsawyer/copyright")
+```
+
+### Installing
+
+Installation from NPM with:
+
+```
+npm i @ehsawyer/copyright --save
+```
+
+Or install from Yarn with:
+
+```
 yarn add @ehsawyer/copyright
 ```
 
 ## Usage
 
-```sh
-copyright([{options}])
+```
+// Returns "Copyright © Ethan Sawyer 2017-2019"
+copyright({
+    showFullText    : true,
+    symbol          : "©",
+    copyrightHolder : "Ethan Sawyer",
+    initialYear     : 2017,
+    lastUpdatedYear : 2019
+})
+
+// Returns "© Ethan Sawyer 2019"
+copyright({
+    showFullText    : false,
+    lastUpdatedYear : "current"
+})
 ```
 
-## Run tests
+## Running the tests
 
-```sh
-yarn run test
+Install Jasmine with:
+
+```
+npm i jasmine -g
+```
+Or
+```
+yarn global add jasmine
 ```
 
-## Author
+Then navigate to the package folder and run:
 
-👤 **Ethan Sawyer**
+```
+jasmine
+```
 
-* Github: [@ehsawyer](https://github.com/ehsawyer)
+## Versioning
 
-## 🤝 Contributing
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/ehsawyer/copyright/issues).
+## Authors
 
-## Show your support
+* **Ethan "Chaton" Sawyer** - *Main Author* - [@ehsawyer](https://github.com/ehsawyer)
 
-Give a ⭐️ if this project helped you!
+## License
 
-## 📝 License
-
-Copyright © 2019 [Ethan Sawyer](https://github.com/ehsawyer).<br />
-This project is [GPL-3.0-only](https://github.com/ehsawyer/copyright/blob/master/LICENSE) licensed.
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details
