@@ -23,8 +23,8 @@ const defaultOptions = {
  * @param {boolean}         userOptions.showFullText    Toggles "Copyright" showing
  * @param {string}          userOptions.symbol          Symbol to use in copyright notice
  * @param {string}          userOptions.copyrightHolder Name or company name holding copyright
- * @param {(number|string)} userOptions.initialYear     Year of initial publication
- * @param {number}          userOptions.lastUpdatedYear Year of most recent update
+ * @param {number}          userOptions.initialYear     Year of initial publication
+ * @param {(number|string)} userOptions.lastUpdatedYear Year of most recent update
  * 
  * @example
  * copyright({
